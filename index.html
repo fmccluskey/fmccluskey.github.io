@@ -50,13 +50,28 @@
 							<p style="font-family: Didot;color: #edebfc"> I graduated in 2019  from Bryn Mawr College, where I did research with Prof. Kate Daniel on the dynamical effects of resonances on stellar orbits in analytical simulations of spiral galaxies. </p>
 							<p style="font-family: Didot;color: #edebfc"> Outside of astronomy, I enjoy trivia, chess, skiing, hiking and spending time with my friends and cats in Davis and my family in New Hampshire.  </p>
 							<div class="box alt">
-								<div class="row gtr-100 gtr-uniform aln-center">
-									<div class="col-3"><span class="image fit"><img src="images/me.jpg" alt="" /></span></div>
-									<div class="col-3"><span class="image fit"><img src="images/cats.jpg" alt="" /></span></div>
-									<div class="col-3"><span class="image fit"><img src="images/skiing.jpg" alt="" /></span></div>
-
-								</div>
+								  <div class="row gtr-100 gtr-uniform aln-center">
+								    <div class="col-4"><span class="image fit"><img src="images/me.jpg" alt="" /></span></div>
+								    <div class="col-4"><span class="image fit"><img src="images/cats.jpg" alt="" /></span></div>
+								    <div class="col-4"><span class="image fit"><img src="images/skiing.jpg" alt="" /></span></div>
+								  </div>
 							</div>
+								
+								<style>
+								@media (max-width: 768px) {
+								  .col-4, .col-3 {
+								    width: 100% !important;
+								    display: block;
+								    margin-bottom: 1em;
+								    padding: 0 10px;        /* slight left/right padding */
+								    box-sizing: border-box; /* makes padding stay inside width */
+								  }
+								  .image.fit img {
+								    border-radius: 6px;     /* optional: subtle rounding */
+								    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* optional: light shadow */
+								  }
+								}
+								</style>
 						</div>
 					</section>
 					<section id="two" class="wrapper style3 fade-up">
@@ -186,6 +201,7 @@
 
 	</body>
 </html>
+
 
 
 
